@@ -1,0 +1,23 @@
+digraph "food-ordering-system" {
+  node [shape="box",style="rounded",fontname="Helvetica",fontsize="14"]
+  edge [fontsize="10",fontname="Helvetica"]
+
+  // Node Definitions:
+  "com.gahoccode.microservices:order-application-service:jar:compile"[label=<order-application-service>]
+  "com.gahoccode.microservices:order-domain-core:jar:compile"[label=<order-domain-core>]
+  "com.gahoccode.microservices:order-application:jar:compile"[label=<order-application>]
+  "com.gahoccode.microservices:order-dataaccess:jar:compile"[label=<order-dataaccess>]
+  "com.gahoccode.microservices:order-messaging:jar:compile"[label=<order-messaging>]
+  "com.gahoccode.microservices:order-container:jar:compile"[label=<order-container>]
+
+  // Edge Definitions:
+  "com.gahoccode.microservices:order-application-service:jar:compile" -> "com.gahoccode.microservices:order-domain-core:jar:compile"
+  "com.gahoccode.microservices:order-application:jar:compile" -> "com.gahoccode.microservices:order-application-service:jar:compile"
+  "com.gahoccode.microservices:order-dataaccess:jar:compile" -> "com.gahoccode.microservices:order-application-service:jar:compile"
+  "com.gahoccode.microservices:order-messaging:jar:compile" -> "com.gahoccode.microservices:order-application-service:jar:compile"
+  "com.gahoccode.microservices:order-container:jar:compile" -> "com.gahoccode.microservices:order-domain-core:jar:compile"
+  "com.gahoccode.microservices:order-container:jar:compile" -> "com.gahoccode.microservices:order-application-service:jar:compile"
+  "com.gahoccode.microservices:order-container:jar:compile" -> "com.gahoccode.microservices:order-application:jar:compile"
+  "com.gahoccode.microservices:order-container:jar:compile" -> "com.gahoccode.microservices:order-dataaccess:jar:compile"
+  "com.gahoccode.microservices:order-container:jar:compile" -> "com.gahoccode.microservices:order-messaging:jar:compile"
+}

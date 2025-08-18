@@ -14,4 +14,10 @@
     <properties>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.gahoccode.microservices</groupId>
+            <artifactId>order-application-service</artifactId>
+        </dependency>
+    </dependencies>
 </project>
