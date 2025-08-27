@@ -18,13 +18,10 @@
         <module name="common-domain" />
         <module name="order-application" />
         <module name="order-domain-core" />
-        <module name="order-dataaccess" />
         <module name="order-container" />
+        <module name="order-dataaccess" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="order-service" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
