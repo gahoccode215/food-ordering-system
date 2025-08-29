@@ -54,13 +54,19 @@ public class OrderCreateCommandHandler {
 //        OrderCreatedEvent orderCreatedEvent = orderCreateHelper.persistOrder(createOrderCommand);
 //        log.info("Order is created with id: {}", orderCreatedEvent.getOrder().getId().getValue());
 //        orderCreatedPaymentRequestMessagePublisher.publish(orderCreatedEvent);
-        checkCustomer(createOrderCommand.getCustomerId());
-        Restaurant restaurant = checkRestaurant(createOrderCommand);
-        Order order = orderDataMapper.createOrderCommandToOrder(createOrderCommand);
-        OrderCreatedEvent orderCreatedEvent = orderDomainService.validateAndInitiateOrder(order, restaurant);
-        Order orderResult = saveOrder(order);
-        applicationDomainEventPublisher.publish(orderCreatedEvent);
-        return orderDataMapper.orderToCreateOrderResponse(orderResult);
+
+//        checkCustomer(createOrderCommand.getCustomerId());
+//        Restaurant restaurant = checkRestaurant(createOrderCommand);
+//        Order order = orderDataMapper.createOrderCommandToOrder(createOrderCommand);
+//        OrderCreatedEvent orderCreatedEvent = orderDomainService.validateAndInitiateOrder(order, restaurant);
+//        Order orderResult = saveOrder(order);
+//        applicationDomainEventPublisher.publish(orderCreatedEvent);
+//        return orderDataMapper.orderToCreateOrderResponse(orderResult, "Order Created Successfully");
+        OrderCreatedEvent orderCreatedEvent = orderCreateHelper.persistOrder(createOrderCommand);
+        log.info("Order is created with id: {}", orderCreatedEvent.getOrder().getId().getValue());
+        orderCreatedPaymentRequestMessagePublisher.publish(orderCreatedEvent);
+        return orderDataMapper.orderToCreateOrderResponse(orderCreatedEvent.getOrder(),
+                "Order created successfully");
     }
 
 
