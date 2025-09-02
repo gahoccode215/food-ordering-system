@@ -1,0 +1,9 @@
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\OrderApprovalStatus.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\RestaurantApprovalResponseAvroModel.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\PaymentRequestAvroModel.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\PaymentOrderStatus.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\PaymentStatus.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\Product.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\RestaurantOrderStatus.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\RestaurantApprovalRequestAvroModel.java
+D:\self-learning\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\PaymentResponseAvroModel.java

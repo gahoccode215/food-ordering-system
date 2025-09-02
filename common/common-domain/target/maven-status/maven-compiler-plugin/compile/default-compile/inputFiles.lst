@@ -1,0 +1,14 @@
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\OrderStatus.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\CustomerId.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\BaseId.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\entity\AggregateRoot.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\RestaurantId.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\OrderId.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\event\publisher\DomainEventPublisher.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\ProductId.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\entity\BaseEntity.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\OrderApprovalStatus.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\Money.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\valueobject\PaymentStatus.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\exception\DomainException.java
+D:\self-learning\food-ordering-system\common\common-domain\src\main\java\com\food\ordering\system\domain\event\DomainEvent.java

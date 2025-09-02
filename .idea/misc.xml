@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/order-service/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/order-domain/order-domain-core/pom.xml" />
+        <option value="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
